@@ -68,7 +68,7 @@ alert(document.cookie); // ...; my%20name=John%20Smith
 
 ```warn header="Limitations"
 There are few limitations:
-- The `name=value` pair, after `encodeURIComponent`, should not exceed 4kb. So we can't store anything huge in a cookie.
+- The `name=value` pair, after `encodeURIComponent`, should not exceed 4kB. So we can't store anything huge in a cookie.
 - The total number of cookies per domain is limited to around 20+, the exact limit depends on a browser.
 ```
 
